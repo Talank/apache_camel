@@ -22,16 +22,21 @@ on:
     # Run nightly at 2 AM
     - cron: '0 2 * * *'
 
+  push:
+  workflow_dispatch:
 permissions:
   contents: read
 
 jobs:
   build:
-    if: github.repository == 'apache/camel'
+    if: always()
     runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        os: [windows-latest, macos-latest, windows-2025]
+        os:
+          - ubuntu-latest
+          - windows-latest
+          - macos-latest
       fail-fast: false
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
@@ -44,7 +49,8 @@ jobs:
           java-version: 21
           cache: 'maven'
       - name: mvn build ${{ matrix.os }}
-        run: ./mvnw -B -V -D'http.keepAlive=false' -l build.log -D'maven.wagon.http.pool=false' -D'maven.wagon.httpconnectionManager.ttlSeconds=120' --no-transfer-progress -Dquickly install
+        run: ./mvnw -B -V -D'http.keepAlive=false' -l build.log -D'maven.wagon.http.pool=false' 
+          -D'maven.wagon.httpconnectionManager.ttlSeconds=120' --no-transfer-progress -Dquickly install
       - name: Archive logs ${{ matrix.os }}
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         if: always()

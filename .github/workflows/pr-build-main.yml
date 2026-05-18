@@ -51,8 +51,10 @@ on:
         type: boolean
         default: false
 
+  push:
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || inputs.pr_number || github.ref }}${{ inputs.extra_modules && '-component-test' || '' }}
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || inputs.pr_number || github.ref }}${{ 
+    inputs.extra_modules && '-component-test' || '' }}
   cancel-in-progress: true
 
 permissions:
@@ -60,15 +62,15 @@ permissions:
 
 jobs:
   build:
-    if: github.repository == 'apache/camel'
+    if: always()
     permissions:
       contents: read
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     continue-on-error: ${{ matrix.experimental }}
     strategy:
       matrix:
         java: ['17', '21']
-        experimental: [ false ]
+        experimental: [false]
         include:
           - java: '17'
             # JDK 17 is kept for runtime compatibility testing.
@@ -77,6 +79,11 @@ jobs:
           - java: '25'
             experimental: true
 
+        os:
+          - ubuntu-latest
+          - windows-latest
+          - macos-latest
+      fail-fast: false
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
