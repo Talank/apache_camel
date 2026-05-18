@@ -33,6 +33,7 @@ on:
         type: boolean
         default: false
 
+  push:
 jobs:
   upgrade-container-versions:
     runs-on: ubuntu-latest

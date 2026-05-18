@@ -28,6 +28,8 @@ on:
       - Jenkinsfile.*
       - NOTICE.txt
 
+  push:
+  workflow_dispatch:
 permissions:
   contents: read
 

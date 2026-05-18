@@ -51,8 +51,10 @@ on:
         type: boolean
         default: false
 
+  push:
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || inputs.pr_number || github.ref }}${{ inputs.extra_modules && '-component-test' || '' }}
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || inputs.pr_number || github.ref }}${{ 
+    inputs.extra_modules && '-component-test' || '' }}
   cancel-in-progress: true
 
 permissions:
@@ -68,7 +70,7 @@ jobs:
     strategy:
       matrix:
         java: ['17', '21']
-        experimental: [ false ]
+        experimental: [false]
         include:
           - java: '17'
             # JDK 17 is kept for runtime compatibility testing.
