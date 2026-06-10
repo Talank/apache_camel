@@ -18,21 +18,7 @@
 name: Container Version Upgrade
 
 on:
-  schedule:
-    # Run every Monday at 6:00 AM UTC
-    - cron: '0 6 * * MON'
   workflow_dispatch:
-    inputs:
-      scan_path:
-        description: 'Path to scan for container.properties files'
-        required: false
-        default: 'test-infra'
-      check_prereleases:
-        description: 'Include pre-release versions'
-        required: false
-        type: boolean
-        default: false
-
 jobs:
   upgrade-container-versions:
     runs-on: ubuntu-latest
@@ -106,7 +92,7 @@ jobs:
           echo "Found $OUTDATED_COUNT outdated images"
 
       - name: Create individual PRs for each container update
-        if: steps.version_check.outputs.check_passed == 'false'
+        if: always()
         id: create_prs
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
@@ -390,3 +376,5 @@ jobs:
               echo "⚠️ No Pull Requests were created" >> $GITHUB_STEP_SUMMARY
             fi
           fi
+    strategy:
+      fail-fast: false

@@ -18,21 +18,18 @@
 name: Sonar Quality Pull Request Analysis
 
 on:
-  workflow_run:
-    workflows: [SonarBuild]
-    types: [completed]
+  workflow_dispatch:
 
 concurrency:
-  group: sonar-pr-${{ github.event.workflow_run.head_repository.full_name }}-${{ github.event.workflow_run.head_branch }}
+  group: sonar-pr-${{ github.event.workflow_run.head_repository.full_name }}-${{ github.event.workflow_run.head_branch 
+    }}
   cancel-in-progress: true
 
 jobs:
   sonar:
     # Temporarily disabled until SonarCloud quality gate is adjusted (INFRA-27808)
-    if: >
-      false &&
-      github.event.workflow_run.conclusion == 'success' &&
-      github.repository == 'apache/camel'
+    if: >-
+      always()
     name: Sonar Analysis
     runs-on: ubuntu-latest
     permissions:
@@ -167,3 +164,5 @@ jobs:
               status: 'completed',
               conclusion: process.env.JOB_STATUS
             });
+    strategy:
+      fail-fast: false

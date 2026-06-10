@@ -18,16 +18,7 @@
 name: SonarBuild
 
 on:
-  pull_request:
-    branches:
-      - main
-    paths-ignore:
-      - README.md
-      - SECURITY.md
-      - Jenkinsfile
-      - Jenkinsfile.*
-      - NOTICE.txt
-
+  workflow_dispatch:
 permissions:
   contents: read
 
@@ -38,7 +29,7 @@ concurrency:
 jobs:
   build:
     # Temporarily disabled until SonarCloud quality gate is adjusted (INFRA-27808)
-    if: false && github.repository == 'apache/camel'
+    if: always()
     name: Build for Sonar Analysis
     runs-on: ubuntu-latest
     steps:
@@ -106,3 +97,5 @@ jobs:
           path: pr-event.txt
           if-no-files-found: error
           retention-days: 1
+    strategy:
+      fail-fast: false

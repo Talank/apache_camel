@@ -18,41 +18,10 @@
 name: Build and test
 
 on:
-  pull_request:
-    branches:
-      - main
-    # CI-only changes don't need a full build. Use workflow_dispatch to
-    # test CI changes: gh workflow run "Build and test" -f pr_number=XXXX -f pr_ref=branch-name
-    paths-ignore:
-      - .github/**
-      - README.md
-      - SECURITY.md
-      - Jenkinsfile
-      - Jenkinsfile.*
-      - NOTICE.txt
   workflow_dispatch:
-    inputs:
-      pr_number:
-        description: 'Pull request number to build'
-        required: true
-        type: string
-      pr_ref:
-        description: 'Git ref of the pull request branch'
-        required: true
-        type: string
-      extra_modules:
-        description: 'Additional modules to test (comma-separated paths, e.g. from /component-test)'
-        required: false
-        type: string
-        default: ''
-      skip_full_build:
-        description: 'Skip full regen build — use quick targeted build instead (for /component-test)'
-        required: false
-        type: boolean
-        default: false
-
 concurrency:
-  group: ${{ github.workflow }}-${{ github.event.pull_request.number || inputs.pr_number || github.ref }}${{ inputs.extra_modules && '-component-test' || '' }}
+  group: ${{ github.workflow }}-${{ github.event.pull_request.number || inputs.pr_number || github.ref }}${{ 
+    inputs.extra_modules && '-component-test' || '' }}
   cancel-in-progress: true
 
 permissions:
@@ -60,7 +29,7 @@ permissions:
 
 jobs:
   build:
-    if: github.repository == 'apache/camel'
+    if: always()
     permissions:
       contents: read
     runs-on: ubuntu-latest
@@ -68,7 +37,7 @@ jobs:
     strategy:
       matrix:
         java: ['17', '21']
-        experimental: [ false ]
+        experimental: [false]
         include:
           - java: '17'
             # JDK 17 is kept for runtime compatibility testing.
@@ -77,6 +46,7 @@ jobs:
           - java: '25'
             experimental: true
 
+      fail-fast: false
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
@@ -93,12 +63,12 @@ jobs:
           java-version: ${{ matrix.java }}
           cache: 'maven'
       - name: maven build
-        if: ${{ !inputs.skip_full_build }}
+        if: always()
         env:
           MAVEN_EXTRA_ARGS: ${{ matrix.maven_extra_args || '' }}
         run: ./etc/scripts/regen.sh
       - name: Quick dependency build
-        if: ${{ inputs.skip_full_build }}
+        if: always()
         shell: bash
         env:
           EXTRA_MODULES: ${{ inputs.extra_modules }}
@@ -111,7 +81,7 @@ jobs:
           name: build-${{ matrix.java }}.log
           path: build.log
       - name: Fail if there are uncommitted changes
-        if: ${{ !inputs.skip_full_build }}
+        if: always()
         shell: bash
         run: |
           [[ -z $(git status --porcelain) ]] || { echo 'There are uncommitted changes'; git status; echo; echo; git diff; exit 1; }
@@ -133,7 +103,7 @@ jobs:
       # This ensures a comment is posted even if one JDK build fails — the
       # content is identical across JDKs (same modules tested), so last writer wins.
       - name: Save PR number and test comment for commenter workflow
-        if: always() && !matrix.experimental
+        if: always()
         shell: bash
         env:
           RUN_URL: ${{ github.server_url }}/${{ github.repository }}/actions/runs/${{ github.run_id }}
@@ -149,7 +119,7 @@ jobs:
             echo ":gear: [View full build and test results](${RUN_URL})" >> ci-comment-artifact/incremental-test-comment.md
           fi
       - name: Upload CI comment artifact
-        if: always() && !matrix.experimental
+        if: always()
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: ci-comment
