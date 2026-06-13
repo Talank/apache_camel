@@ -44,6 +44,7 @@ jobs:
 
       - name: Check container versions
         id: version_check
+        shell: bash
         run: |
           SCAN_PATH="${{ github.event.inputs.scan_path || 'test-infra' }}"
           PRERELEASE_FLAG=""
@@ -94,6 +95,7 @@ jobs:
       - name: Create individual PRs for each container update
         if: always()
         id: create_prs
+        shell: bash
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -355,6 +357,7 @@ jobs:
 
       - name: Job summary
         if: always()
+        shell: bash
         run: |
           OUTDATED_COUNT=$(jq '[.[] | select(.is_latest == false and .error == null and (.newer_versions | length) > 0)] | length' versions.json 2>/dev/null || echo "0")
           PRS_CREATED="${{ steps.create_prs.outputs.prs_created }}"
