@@ -21,8 +21,9 @@ set -e
 # Move to top directory
 cd `dirname "$0"`/../..
 
-# Force clean (use git clean only; the glob rm is redundant and unreliable cross-platform)
-git clean -fdx -e build.log
+# Force clean
+git clean -fdx
+rm -Rf **/src/generated/
 
 # Regenerate everything
 if ./mvnw --batch-mode -Pregen -DskipTests ${MAVEN_EXTRA_ARGS} install >> build.log 2>&1; then
