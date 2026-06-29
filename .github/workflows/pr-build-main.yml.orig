@@ -58,7 +58,6 @@ jobs:
           ref: ${{ inputs.pr_ref || '' }}
       - id: install-packages
         uses: ./.github/actions/install-packages
-        if: runner.os == 'Linux'
       - id: install-mvnd
         uses: ./.github/actions/install-mvnd
       - name: Set up JDK ${{ matrix.java }}
@@ -68,7 +67,7 @@ jobs:
           java-version: ${{ matrix.java }}
           cache: 'maven'
       - name: maven build
-        if: always() && runner.os == 'Linux'
+        if: always()
         env:
           MAVEN_EXTRA_ARGS: ${{ matrix.maven_extra_args || '' }}
         run: ./etc/scripts/regen.sh
@@ -78,7 +77,7 @@ jobs:
         env:
           EXTRA_MODULES: ${{ inputs.extra_modules }}
           MAVEN_EXTRA_ARGS: ${{ matrix.maven_extra_args || '' }}
-        run: ./mvnw -l build.log install -B -DskipTests -Dquickly ${MAVEN_EXTRA_ARGS} ${EXTRA_MODULES:+-pl "$EXTRA_MODULES" -am}
+        run: ./mvnw -l build.log install -B -DskipTests -Dquickly $MAVEN_EXTRA_ARGS -pl "$EXTRA_MODULES" -am
       - name: archive logs
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         if: always()
@@ -89,7 +88,7 @@ jobs:
         if: always()
         shell: bash
         run: |
-          [[ -z $(git status --porcelain) ]] || { echo 'There are uncommitted changes'; git status; printf '\n\n'; git diff; exit 1; }
+          [[ -z $(git status --porcelain) ]] || { echo 'There are uncommitted changes'; git status; echo; echo; git diff; exit 1; }
       - name: mvn test
         uses: ./.github/actions/incremental-build
         with:
@@ -124,7 +123,7 @@ jobs:
             echo ":gear: [View full build and test results](${RUN_URL})" >> ci-comment-artifact/incremental-test-comment.md
           fi
       - name: Upload CI comment artifact
-        if: always() && runner.os == 'Linux' && matrix.java == '21'
+        if: always()
         uses: actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a # v7.0.1
         with:
           name: ci-comment
