@@ -19286,40 +19286,6 @@
       "version" : "4.21.0-SNAPSHOT",
       "description" : "Maven plugin to help package Camel components and plugins",
       "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "2d017f519d7625868a8b108245af0293"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "b372a834428698d60b52b0bdf2d3bfc836f2480d"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "67a7beb8d39b338ea9afae557905b6e105b935810cdbe25bac16b16f63283686"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "5d9809f977144eb5db2c5f70d3b28325c34f9e64e7cf2f0e5395550e0de5c67493b905eeeae0317fa58dd52932f98b7ed7d65959acd816a25e23efa63191102f"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "d875febeac4cb7eedb0160fd55a482f2661534d84130180bca6e3abbd36a4dab68a62a897c872a712ac26655f6e0f9b1"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "275d0f1cb6155966d86e07c1cc55e9c6059c491113d5ee4822174d8bbb769e16398e42fe6aad2f14d4755c8448f824d3"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "cc27e698288eba54167326ed95bf46e95df9b6696215b3e18084e9f9ce8884b6"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "960950e4caf142dd0522279aad1a1d25e6bf1e0b529a098079087311fd779191d8458c4589e8c7a0f2bfae513d3456a6f635bd54754c6c3c3230a670189cfb6d"
-        }
-      ],
       "licenses" : [
         {
           "license" : {
@@ -20438,45 +20404,45 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/eu.maveniverse.maven.mima/context@2.4.43?type=jar",
+      "bom-ref" : "pkg:maven/eu.maveniverse.maven.mima/context@2.4.44?type=jar",
       "publisher" : "Maveniverse Team",
       "group" : "eu.maveniverse.maven.mima",
       "name" : "context",
-      "version" : "2.4.43",
+      "version" : "2.4.44",
       "description" : "Common Maven parent.",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "c0a08a5d871316b363bd5251edc42fc8"
+          "content" : "93f4a5aca4fcef98ddacd7a03c97b2d7"
         },
         {
           "alg" : "SHA-1",
-          "content" : "e5e50dbccf33e16bbc3c9a92c8c0978d37a10151"
+          "content" : "8f3089563219a3476dbd7bf406bdfda13d1211eb"
         },
         {
           "alg" : "SHA-256",
-          "content" : "7f7200ffd52967807e1cbe54a5aa5602b176002acc2665a5062c28e5e2c931e1"
+          "content" : "81f0dab4c5f0cf59a53faf8b864960b1629d7d7f174f0c26ed6319e2fec1984d"
         },
         {
           "alg" : "SHA-512",
-          "content" : "8b0e52d5e50363cfcffe58043bff83c915b522ba774527a7198b49bc7f638e8107a7dc0cad51cd2cc8f713e5197199559a2a7fb365b15ed500b9febb18d3e28e"
+          "content" : "9183b3fa2fa4e4dbc97c50ef43aebc054a35e5bdb3e0599874d15fda1bacbe40e36c9fb476bee31d454e7bd2465029aecd48a7e326314a34d196cc81d2bfa16d"
         },
         {
           "alg" : "SHA-384",
-          "content" : "95f0ece89f0020fb425a882e2f7f8fedac12f62bb130bdf1c746e3dcdec321241df18ae2f798491ba76232d804b66f01"
+          "content" : "31fd329a73271cf4918595d880f2175c5fd24dfd765019ea8a7e45ff1a184c0ed9521a2629ddbb4484eb179c48f5fb65"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "cd887c804fe69533ea8866ee11cba0e9436bf6d0685cb8ded050587d7091ad915ec89a8a7bdabd2d8c4c31b77881d157"
+          "content" : "3cf46980d39fdd227c05ccd3e0921bfede6ed841a9465707ae7c4e4599af9268ae817668f827502da94da4044481f859"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "965de4c059a69d5bb5359be1b588fc34bd2602ba8fe7f4c0cfff49c24a544823"
+          "content" : "65eee8b7bdfa596320f72fad8b64b598a31ed0f7ec95e9aa763372e09e5bf6c5"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "aa5b1d54c872f32f7281864a372ea3e14b4cb7f2812a7c00fa7efe71b53ef5d5bb7be9742407a89aacc0f6cc29c0c56e3ceb27ab1d0df71ff11b0aa35eb3c15f"
+          "content" : "a7da354ec224ce832e9ff1be24ea8d607d55a929c78f52a71ec3c5fd76ffe72954f22a0d1dfbc11f83f4f872687cc4afb9357c2aa9689d1c77a1445e46f80c09"
         }
       ],
       "licenses" : [
@@ -20487,7 +20453,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/eu.maveniverse.maven.mima/context@2.4.43?type=jar",
+      "purl" : "pkg:maven/eu.maveniverse.maven.mima/context@2.4.44?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -20513,45 +20479,45 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/eu.maveniverse.maven.mima.runtime/embedded-maven@2.4.43?type=jar",
+      "bom-ref" : "pkg:maven/eu.maveniverse.maven.mima.runtime/embedded-maven@2.4.44?type=jar",
       "publisher" : "Maveniverse Team",
       "group" : "eu.maveniverse.maven.mima.runtime",
       "name" : "embedded-maven",
-      "version" : "2.4.43",
+      "version" : "2.4.44",
       "description" : "Common Maven parent.",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "476bc766f37004c55f85b6222e86ca74"
+          "content" : "41675eb4af1c751de10613ccfb229b13"
         },
         {
           "alg" : "SHA-1",
-          "content" : "53a4977d1899c104ca39f9808cbf2501e2e76bc6"
+          "content" : "b7c28c1f46503580194bc50fa4999042d308d015"
         },
         {
           "alg" : "SHA-256",
-          "content" : "57affe0f85d8740ec6aff1a1e1950ee51b750fb5020578d4b4aa0f6a17e5d2b2"
+          "content" : "c44787e681cf15d0b2162d9776ec507de2725b3d197a50a051c8777d300ac426"
         },
         {
           "alg" : "SHA-512",
-          "content" : "da2053729e5817a63e781953932dc5812e52d8d2703818696bcd0f6e417a44c8699597ed6b887c712a3dcb49411537b393b2fd4a1d7e5cbe2fb7196124356bbb"
+          "content" : "217eb0d097bf5b5cc2f9c9dea7a3cbe73d6db825eb83579e4fbb5efd982e1c955d4f15b2b4b6b6070f9ccce479839a2addc60bf28039f76eb68ee6d45d6fe254"
         },
         {
           "alg" : "SHA-384",
-          "content" : "5bf25c5dbb175188c6f23792f42123a9d4c1f779c67ee94749d318ff3ce7e34bd326160c2eb40111bd67df5ccf59ed8c"
+          "content" : "d190016599f4eaa451f7ce65673deac72ae97a32d04abef7cdcb6bcb7ab80bf5cff4dc12e5273ee6abd3fea52bf517b8"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "4c9709c38520e7e5392351f7c358e9bab03353ffacf2849d3aaaec6ec4565c6801803a4b5c773e42b5819da4aa3c9d41"
+          "content" : "585ea602521d6d7bfff240f0dc86b364aba76b539d5fe834d99998efe6ae91d12317e537cf47bb6ea74eddb87e2de41c"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "423688695db83418172c38876e80d2f8ef3506a24c8029568695f1e48dde3e54"
+          "content" : "8c3ef23b8377a87de56ab537635fa49d39a84733aa43c9bf409b6e9592a6fc87"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "4809fc9607d3a9780c8544456fa2571d4f6a824a92fc6097e8804faddd4f5991ca28097753d9070e597fe3ccaf384d4a6d7596edb9572ea2e95441bca1f3ef0e"
+          "content" : "09b772e23a692acc606ceba374d8fde74146dc7ac2bf200dd24e2ac771429f36dcf43f1c242ff487712a54b5b9b798531fc48f55b36f6977dcc4071eb4addf31"
         }
       ],
       "licenses" : [
@@ -20562,7 +20528,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/eu.maveniverse.maven.mima.runtime/embedded-maven@2.4.43?type=jar",
+      "purl" : "pkg:maven/eu.maveniverse.maven.mima.runtime/embedded-maven@2.4.44?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -20588,45 +20554,45 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-static@2.4.43?type=jar",
+      "bom-ref" : "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-static@2.4.44?type=jar",
       "publisher" : "Maveniverse Team",
       "group" : "eu.maveniverse.maven.mima.runtime",
       "name" : "standalone-static",
-      "version" : "2.4.43",
+      "version" : "2.4.44",
       "description" : "Common Maven parent.",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "71ceac61b1fa66ffe17c311ac049ec68"
+          "content" : "60ed7ab2bcf275c39f232c2cc2113273"
         },
         {
           "alg" : "SHA-1",
-          "content" : "a6bbe0569c655eed050ac61a44898bf8ddd44aff"
+          "content" : "c174b9f383c2eb2e006bd0bac432e76c62f39374"
         },
         {
           "alg" : "SHA-256",
-          "content" : "95eeb72d0f289870d7ced384cd298e4898eb1c87d6fd00a4a7d00a24c574861c"
+          "content" : "e9f2981e9f32723b74569ac5a829abd0e34bf6a5961d1e6578d7b284fedc36e4"
         },
         {
           "alg" : "SHA-512",
-          "content" : "63ad98cb0a0d052c82c45bba31a13255b7e1457fb573121f766e8619d8dd42419f5dbe73bce1a78e07c5ee583a4741a2011f88a1644a0124be814e8be08190f2"
+          "content" : "7eed903071f260a23a25171eda9e5aba08973f9c76f1052bc58d780af01db0b21cca76366f2e31e2e231c14cc4d924b3e7b1ab2d3624324e797b58dbe04a7496"
         },
         {
           "alg" : "SHA-384",
-          "content" : "5ece5151a02fa0447d7c14befad0e59d2bf42eaf7911dd3bda317b853fc2c807ae2de1ed4781d2277137bc1150069f01"
+          "content" : "0e46fe9c52e27c19ae5b418db42e695e57462e9e2dce72d5aa02fd536f62f09415167d0beb684c6917098714878f45cc"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "c51587a79dcd27679e477ef7ea6cec7e9e9706552435aa19efd1f016a91c29c8500baeda92ec62f62251a4c61987318b"
+          "content" : "fd8fc6a15191be6bd6aeb8954f4a795c6a358160ffa76ffae9c0887ed5a476208b0be51e668e174490ae2448cce85ea4"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "f81a48c6ecb6226116492d755e64ac342f480b6eb2c3edbb6ad8a21f7a537152"
+          "content" : "4b6db9bde30b5e96150081d2ecf299db2f1b875f7b042826d5304f47fe21e750"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "374da9b13b8323c258f92b2729e4282b2c3536322a5a966b93c93ed66bb1f93090ba12cf3a8f3939bf22e5b75f21e4a7f75287e0a5398f34afc2179a45ccd46f"
+          "content" : "c14d420dd663e367a6922b1aa10515b4b29d61152f4a7a0f182703a8e864c5e9cf4bd304af72052f52b461bdb756b134c2f7a06928e8056999a827a015a3fda3"
         }
       ],
       "licenses" : [
@@ -20637,7 +20603,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-static@2.4.43?type=jar",
+      "purl" : "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-static@2.4.44?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -20663,45 +20629,45 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-shared@2.4.43?type=jar",
+      "bom-ref" : "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-shared@2.4.44?type=jar",
       "publisher" : "Maveniverse Team",
       "group" : "eu.maveniverse.maven.mima.runtime",
       "name" : "standalone-shared",
-      "version" : "2.4.43",
+      "version" : "2.4.44",
       "description" : "Common Maven parent.",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "b6695d6e8068187e89f2f2a6aada5870"
+          "content" : "04a5c142da07b5c22e3080ef8908c4c8"
         },
         {
           "alg" : "SHA-1",
-          "content" : "380854b55c9219037d2e5c19ae52ce915117a5ed"
+          "content" : "ba318a66df0df6a39880a2259c0f03673802276c"
         },
         {
           "alg" : "SHA-256",
-          "content" : "0c3d99fc2722bf11640f0ed73e31e0d37f40b54b8a72a56328b95971c00dd8a5"
+          "content" : "aee5e7c077f7968da9bf0ba11bd20574e054ed75ea71065a6dd4552da87b21a2"
         },
         {
           "alg" : "SHA-512",
-          "content" : "27cb843315a924eb7173191ff5490dcd050b9f5c4ad3f7e33139ccfceaa2cb4f8c34f827f4d5835c668444daee55ac10c10848525ea07d1a3941ff8819394039"
+          "content" : "509f93477720ab7c843965e5ff25bbecea133e86bdeb9bf06e36c2c37645ea37d76dc919e94f0f43f288d2b4ed53418c688a912ed14117a6d24989aba104a37d"
         },
         {
           "alg" : "SHA-384",
-          "content" : "d3009af7df2e5e6969da7c4cba1d0ec176fce86d530d7147dc9b063b066cc2820406239a1fe8102a791aa65d0ba010bb"
+          "content" : "053b6f72a799541a27b85f28219e7b737e8a70a042335e932d7906e222b5a09a5b0aaca5b7d6c781ceacbb6d5ce22c78"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "1ec3252d8fabd37d5abc7a6b82b04549c9a484ecd265ace99eb00dc3f08930288bcd3f5542b12a01b04b14858756f0a7"
+          "content" : "b29e74e7983a350ae7c67825d982d9aeb72fbf99027704bcd2eb46e6a13911e79370d9a06131321db8c2b93d5be9d3ff"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "21c1c4a04f9bb465176c6b4bdd682ccd03633b40874320b0d7860d0eaba20c79"
+          "content" : "478db567fd2a1f5cf77aac238b48c8b73d5bef2ffa8e7594549e973cbd113dc1"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "f206f048cd19d4b8645dd9dd968900618a30ec84b51c41fb89b7a1c347917672a27cec4062007517b45ceebd144a33b1b9e020dd1a6ef83dd1d7f30548fcb1b1"
+          "content" : "cced2273b5120222867eff5f461b2ccc6cbbac4bbe6902ab2358a1e514aba116d2df49df759ccb7ecb7ff9fe5d76ffadd64163073db4482b82ef10218238f2b6"
         }
       ],
       "licenses" : [
@@ -20712,7 +20678,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-shared@2.4.43?type=jar",
+      "purl" : "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-shared@2.4.44?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -20733,6 +20699,89 @@
         {
           "type" : "vcs",
           "url" : "https://github.com/maveniverse/mima/runtime/standalone-shared"
+        }
+      ]
+    },
+    {
+      "type" : "library",
+      "bom-ref" : "pkg:maven/org.apache.maven/maven-settings-builder@3.9.16?type=jar",
+      "publisher" : "The Apache Software Foundation",
+      "group" : "org.apache.maven",
+      "name" : "maven-settings-builder",
+      "version" : "3.9.16",
+      "description" : "The effective settings builder, with inheritance and password decryption.",
+      "scope" : "required",
+      "hashes" : [
+        {
+          "alg" : "MD5",
+          "content" : "bd711f14681dc719b1ca8c883912014b"
+        },
+        {
+          "alg" : "SHA-1",
+          "content" : "31321459aee3dd0a12d72a9fb71bfac31b0fb529"
+        },
+        {
+          "alg" : "SHA-256",
+          "content" : "226f1cbb0b4d414eff773fb151a8977837c98073e14d5963794e6cf464e6adbb"
+        },
+        {
+          "alg" : "SHA-512",
+          "content" : "60f8c132b1a58af9b93441e6198b883fbc564a163785c753894c72b8a62f7762ee42f6d38d23bae698ecbcfef42b63a2172b6642be5a045668d9f5eb101ff78e"
+        },
+        {
+          "alg" : "SHA-384",
+          "content" : "62cc6410b88eb991e7e3977b6b515f765aa5ad585f3f9b3b69621b86a858901764532e88c743865e40be402d3dca4bf1"
+        },
+        {
+          "alg" : "SHA3-384",
+          "content" : "d1c60a2eccdc5dc6e7fbcb6242966400649ac45845f6fbd80b7dcb83b2ad92b38e17aded34289c0f89f5802dd7396cff"
+        },
+        {
+          "alg" : "SHA3-256",
+          "content" : "992371bcfb95acdcf015d1076de01e41310b8a86221a04ddd9fa0b9de9cc5ba5"
+        },
+        {
+          "alg" : "SHA3-512",
+          "content" : "2a373e6010beefab0011cdd579052dc4fa804be1f077dab68e8a04b6158c8182327448e0bbcab0de07ac154e5f618e10d50dadc42bb34dde813d56abe9ec842c"
+        }
+      ],
+      "licenses" : [
+        {
+          "license" : {
+            "id" : "Apache-2.0",
+            "url" : "https://www.apache.org/licenses/LICENSE-2.0"
+          }
+        }
+      ],
+      "purl" : "pkg:maven/org.apache.maven/maven-settings-builder@3.9.16?type=jar",
+      "externalReferences" : [
+        {
+          "type" : "website",
+          "url" : "https://maven.apache.org/ref/3.9.16/maven-settings-builder/"
+        },
+        {
+          "type" : "build-system",
+          "url" : "https://ci-maven.apache.org/job/Maven/job/maven-box/job/maven/"
+        },
+        {
+          "type" : "distribution",
+          "url" : "https://maven.apache.org/download.html"
+        },
+        {
+          "type" : "distribution-intake",
+          "url" : "https://repository.apache.org/service/local/staging/deploy/maven2"
+        },
+        {
+          "type" : "issue-tracker",
+          "url" : "https://github.com/apache/maven/issues"
+        },
+        {
+          "type" : "mailing-list",
+          "url" : "https://lists.apache.org/list.html?users@maven.apache.org"
+        },
+        {
+          "type" : "vcs",
+          "url" : "https://github.com/apache/maven/tree/maven-3.9.16/maven-settings-builder"
         }
       ]
     },
@@ -82551,45 +82600,45 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.azure/azure-storage-blob-changefeed@12.0.0-beta.36?type=jar",
+      "bom-ref" : "pkg:maven/com.azure/azure-storage-blob-changefeed@12.0.0-beta.37?type=jar",
       "publisher" : "Microsoft Corporation",
       "group" : "com.azure",
       "name" : "azure-storage-blob-changefeed",
-      "version" : "12.0.0-beta.36",
+      "version" : "12.0.0-beta.37",
       "description" : "This module contains client library for Microsoft Azure Blob Storage changefeed.",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "66899656eec3e2b6561e2eb60dfd9a78"
+          "content" : "09a63f0ed15210df601969d8121ce0d5"
         },
         {
           "alg" : "SHA-1",
-          "content" : "255dde542e88440d14a3c5928e81df41d7001049"
+          "content" : "7947872e6c15f954c5c98d1528a9c5c943772b25"
         },
         {
           "alg" : "SHA-256",
-          "content" : "987a62bed97ddd26dbf90e072b99d0bdfee94fbab5544a71ce22d3dcd6d0eb3d"
+          "content" : "e33981d4880251cb02dc64b9a8b3c9fc7c7e7893f310a10f5852a7d61c85846d"
         },
         {
           "alg" : "SHA-512",
-          "content" : "1edfda7e91077ed7dba5854065763461b8ebb480fc62e5287b19371fcb80409221930a26e4c2591b4967bad8d658bfcb5f8005b6a9e716681b07f3304e881fbb"
+          "content" : "bb13257199b217255962ecdb5b37b86e021951174c1928a32e7d0b2bb9c53b58d8b3afa7ee6bce4f46bcf1f811f4b1b4caa8ea182587cc99864a37def335c7cc"
         },
         {
           "alg" : "SHA-384",
-          "content" : "6f66f9c72f42ecebe7ad60e2f560c97062136074fda20c6ea0ebf68e8f0ca0623fe192e423f24d09f20f68a9b2567f47"
+          "content" : "8bc50e91c431a440d7dee2d96efd1755da2066454c89a2f9b57428d79fdbff1b2b87c8d2fb02fc563af5c9311136fb02"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "2eb13624fd9be9a728712a2b4c14553c215586d5771bdf680d806ffbaec6fef7458ce90ed68d972d758ae07dad83789e"
+          "content" : "028d3e7b3d9c1e52409c72005a45c5bbe923ea1ba7fc97e1502ef1aed75c66f3ae11e1fbab3e17dea17e7e259e3b9e11"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "459f790a45a6b784dd96cf3c9e02dd5c866218af1da31a8d46e88a40247e6d1e"
+          "content" : "fa0e782aad288ac742cae6187e954f912d6dfb39d95f1492f6d506d4a7f451b5"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "eda2b1f9076efcf9df1ebd4329a752ca6590546c223b9c1fc5430289e9d736ef6c9a74d81f4258263265bf443ac9c1d72c830982756af8cf95b1c02a5f53ccb1"
+          "content" : "73cdd8ebbb0cf0905da12f474b075d317ab40981cbf335e110a2342949486864efd65a1d589b9b8ee23d4a837f0035be65af05885e58e105a3c0c356cc7c2554"
         }
       ],
       "licenses" : [
@@ -82599,7 +82648,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.azure/azure-storage-blob-changefeed@12.0.0-beta.36?type=jar",
+      "purl" : "pkg:maven/com.azure/azure-storage-blob-changefeed@12.0.0-beta.37?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -146137,44 +146186,44 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.195?type=jar",
+      "bom-ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.196?type=jar",
       "group" : "com.huaweicloud.sdk",
       "name" : "huaweicloud-sdk-core",
-      "version" : "3.1.195",
+      "version" : "3.1.196",
       "description" : "Core library for Huawei Cloud Java SDK",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "257d586b15d87fbad12c921464d8223a"
+          "content" : "80ee8a1a9405bc79dde7676731818cb8"
         },
         {
           "alg" : "SHA-1",
-          "content" : "1fdf64e0c2452482baa740174aba4a00bef26830"
+          "content" : "0fe943ec16b17a76912c6e1d0bf4edad849059df"
         },
         {
           "alg" : "SHA-256",
-          "content" : "f4fa6d4a5c9b9f359e62cea42307c0a6a67ace4bfd77800e39d42b49a5d6d0a3"
+          "content" : "6069a58f3f1ea72d79a7e9f8df930587dcfe21ed391421f823d3034ff125947d"
         },
         {
           "alg" : "SHA-512",
-          "content" : "7438ebc3337c1f141271203082ba1286c37d3106c06f9a635801aecd87277ead62586bb566919000a5f92780716945562856f25df017c95726a1303efa6bac7e"
+          "content" : "a9494b2132490b69993537274b64f3e5a1d84ffe2244c79e38634d1c17c8559a7e114b521ae8289c43df324a6aca1e628b52276934708cb8d3ef15a3ec7bcc3e"
         },
         {
           "alg" : "SHA-384",
-          "content" : "49cf14206342062e4a92a420c880a82c31c59b5c5a55126d3c44a859ec688a4712ac57086c22af143e5ba1e14f96d595"
+          "content" : "8ac976e10e3ccc0444fcfcd4f8d0dc7fb2c56817e425f75ce5f437ec8503ebbd5773f09aed9dfe6d66b6a867da27955f"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "b789f362d599a0e33850197871f95fad4eea792d6dc8ddbb04cbe431508c465a47704eb358b580b83c942bed3d35e129"
+          "content" : "5f9c85407e3289c6f379655596ac4de64c81f3d15a7438cbb177551b86da7046fddd54d8d28eec12c9fd7e9381dc5ccb"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "0ec687d92384ace75eb17b120250103dbf112524e413cc1b4b4dcfe1a9ffdfb2"
+          "content" : "439ded22c9121ab0672313a4912a7269fa1ccd66fc5052dd12aad4032dccff6e"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "4a12b1fc07a587ed293b6bf8818aaaf9d7e078dc3f0d772e6701fa2c9d082406f3c8a10185dc3955165b4f23312a628169650efdcfdc0c655a5edc5fe1d44cce"
+          "content" : "379daa1480cedf5c3d8c38421e409e3b61baf86df06985618065656b2750e8a94630639a0176f53864535fa216ae59d2d0b2fb448b9c36efe0f4c7382ac38f54"
         }
       ],
       "licenses" : [
@@ -146184,7 +146233,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.195?type=jar",
+      "purl" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.196?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -146482,44 +146531,44 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-frs@3.1.195?type=jar",
+      "bom-ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-frs@3.1.196?type=jar",
       "group" : "com.huaweicloud.sdk",
       "name" : "huaweicloud-sdk-frs",
-      "version" : "3.1.195",
+      "version" : "3.1.196",
       "description" : "Services code for Huawei Cloud SDK for Java",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "2072aafff849d4c4f9d8ac4fe677f77e"
+          "content" : "ba8a89d59ecf1e839ddf97c906b05cef"
         },
         {
           "alg" : "SHA-1",
-          "content" : "4a3eb810da60ed72c0411a32ede2bbb09b502058"
+          "content" : "7ba97f38f145067e45da2fd1b13b05fa84f790e1"
         },
         {
           "alg" : "SHA-256",
-          "content" : "7d4904d50b2d98dfd14f1d7e0f43505396059c0a24afbf5e239b2bae0509beb3"
+          "content" : "68cf4c6135d3605d93f4f3ee757235e631fea687b285d37397540cb26ae08cb8"
         },
         {
           "alg" : "SHA-512",
-          "content" : "fb9fc5d6ace28a9981eb9c1b5be30cfc131b5ccab4a4a2638521e72836fea48d4bb9c32f37f212cce4fc072b8d54b00bc8cc36d0a1247fd8077396a46230a021"
+          "content" : "4f65f0424e3dd9ffe8dc831f88e76ee1468a6db6c1d0fd9b23055e84872b6d1c879f1f2c9bfb2325bcd6b7f953b0223649cdd51d84b00d15202ffd20156758e5"
         },
         {
           "alg" : "SHA-384",
-          "content" : "d75c349ab52a70cc27efdae5bbdacfbc26b87d5204588bb9df9afdf057072e692c290cc50abe75b45c8e8dd797fbcb83"
+          "content" : "f3bd97a9439f9b5f3767dbf8ac2c8edcb06c794dc6263236483c5471d8bccc62bf17457285d4ffe96ae0a40d9e4a110b"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "ce65aea01d9e8acd7a8676dbc1eda7a115df16b082c9c362f74bee4783fddb9c793c881c62082e8ae5eb18648acb4f9d"
+          "content" : "3978a883339ce0bc2e24a122150bf4f9c59e58a3b6f55d27ce9c65a6178c158854f30731b9fc9b0197547dc6032ac249"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "5228ab4bb52fd05296581c0f4969cd94b83074c34d58c51cde99e63d0e59e7bd"
+          "content" : "fa016c845b81a3de73c00a70fe9982ef2bac2ae02fcf564e980d9c451794c178"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "1ddb2576bb479ab5508ca3c687961c786e0b7de1ba1174fa3deed2947bf4b0fcbf08faac847e8cbd0a89315d5477b7b419f83bcb4b289bb8b8d0d66e60423d18"
+          "content" : "cd396874e8b30b1721f2794c8d642009c5bca06278fd3298b22fee2f97354442dfd4fb1cfc370e74ceed5dffbdbbb4d89815d97c4f89a8fb08f6cb3f9bc48e32"
         }
       ],
       "licenses" : [
@@ -146529,7 +146578,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-frs@3.1.195?type=jar",
+      "purl" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-frs@3.1.196?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -146583,44 +146632,44 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-functiongraph@3.1.195?type=jar",
+      "bom-ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-functiongraph@3.1.196?type=jar",
       "group" : "com.huaweicloud.sdk",
       "name" : "huaweicloud-sdk-functiongraph",
-      "version" : "3.1.195",
+      "version" : "3.1.196",
       "description" : "Services code for Huawei Cloud SDK for Java",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "6309855b0679af06be6ee5849315ccbf"
+          "content" : "d6955a28be866ed2ed943dd595a7f7b4"
         },
         {
           "alg" : "SHA-1",
-          "content" : "064b2294a6fdb25a54ebf74846daaf263c53c912"
+          "content" : "acd9114e0bef32eef5ef98d728c7621c8bf30783"
         },
         {
           "alg" : "SHA-256",
-          "content" : "5f7cff4aa8de8d9d5fb88e5f6f1d6e7de02792780ff72f10d4b5207a87c29922"
+          "content" : "cf351fbdd5b0c5fd2486f37a58b5599d100aed2eb53bd8e584aecbed0ee6a098"
         },
         {
           "alg" : "SHA-512",
-          "content" : "332ce6086a325ef1d159e59104f613befaa770e7c006012d2ac5c9ec822a47eea30b4668fa447430cf8af52b0ed15969bc4e38f2a46d08e322fd7ba915f9e61c"
+          "content" : "a78e4fc91108770ba5b4b3fe7a58a6dba7c81a53bd4c9089f9f749865fdb8718a787f4f3dcac1c2bf2e4c1c14f55bcd24440420ca993ed397f07924d6a7e863c"
         },
         {
           "alg" : "SHA-384",
-          "content" : "9b0b55c0e1b0ad6a75120fb7b8bfcbfeab5a02dd1852d641bbcb76a6b7026ff0b0a5b2fd40bde2f6e8388007a6dfd380"
+          "content" : "7a9988dafd99e43cacb42ad4e6738ad9d9417e092cfeb6e1b0156f2dab28e7f09a705e25543e3b790a6e65e37ad7eaa6"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "061a40ec63b957616810c1f93e5cfe2bde51fe727f9b76f93a85ec53f4a0742d5f63caa708f505445c0b379dbc769201"
+          "content" : "daea0c38bd20b644f493a0998ce6b93a4eb426988cee08e362af35039e94bb604c82aaa011fc72516f1d3373750fb586"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "7bb9673762ff94ede3663a734439e44ad88354c5cc48199b6fb42e55a7889533"
+          "content" : "4422f352aec9054627ebad1b4d846ef6f53abc30edc7474fb1be7980f162aa4e"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "8ec92429556ac42dc032311a5a6bfa843e079c260808320187d7a5f140f2d3e96a72caf93e19268ca3c24401476a3c74872b3950d955b6b13951cf53d72837e4"
+          "content" : "690d3301db71bd4ce081cee75ef91d4c9cb08194db5bb511f5c14318396e09c36fc49cf9ca4ece744c99fe7529893c8bec00dafd9226c0ed1769ffe4e6e064a5"
         }
       ],
       "licenses" : [
@@ -146630,7 +146679,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-functiongraph@3.1.195?type=jar",
+      "purl" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-functiongraph@3.1.196?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -146684,44 +146733,44 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-iam@3.1.195?type=jar",
+      "bom-ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-iam@3.1.196?type=jar",
       "group" : "com.huaweicloud.sdk",
       "name" : "huaweicloud-sdk-iam",
-      "version" : "3.1.195",
+      "version" : "3.1.196",
       "description" : "Services code for Huawei Cloud SDK for Java",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "bc4af14583baa3132f423663feab65d5"
+          "content" : "a62411fcd67bdf9a69ad599e3805db78"
         },
         {
           "alg" : "SHA-1",
-          "content" : "a945d1049718f3fce55abf9dac4612f20b753459"
+          "content" : "70b21fc7ce8cf178ac701b0f2bafd29e91f4a398"
         },
         {
           "alg" : "SHA-256",
-          "content" : "62a3788ac9d4bb299372d02e27f61dd7a95c568c69ab66cdee12bfd14f80b367"
+          "content" : "c05fd94311ebee45cf1808f9b1adba337e5d3327b342bf711b53f6b269e0f000"
         },
         {
           "alg" : "SHA-512",
-          "content" : "986e1eb0e63a678eccc629242442adf256f7f7181303107b08813a69037f597cf82a2aa4c5b3092c03da442fa469d9750078f9d476c22c187c5c7310e2dd2c2f"
+          "content" : "402938ea9b16f0db7a54b3695d3159d617fe92939ba5a3ae63f17181973c737f4cd176c6bcefdc5cb8ed6e932976d1c762faa3388b71e2008cf8d546490cc11b"
         },
         {
           "alg" : "SHA-384",
-          "content" : "388a42b5c18811bcfc86b228e66446f86b677e8a10040deb1d9a6fe2ff18986fcc86ba41a5c1f7977224cd1d19d35e45"
+          "content" : "88b35b8207078ebb3a4e20b24e95cd6ade7c1058528064d3fa239eb290d7f652251e982a10bba1735c7d7a49dfe64ffe"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "982bb6edadf58bf047276bc96c1b3f9b611a28ea465ea0fd045702b630eeb69ba43a79e65e73764db9072ad888711071"
+          "content" : "de0627ccd92bd38036660676b482fd8dc54be35d2f0ac1fd6d1424689938c8cea21d94b0a8663d853152266aacc972e1"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "ae365e61b73965acde9b32157bbbe7606224ee1f8d9c62e6881a7a26b96d4edf"
+          "content" : "3637cc5801500a64d471b07671f74f06f2ce966a00615154ad69d03118f8bb7c"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "9d426b222f672b79fdf0f2600d35789d59a5e34ef0cfc47283593d230576d52e3e1efef8faed510e9530ff2f1bf2ebd7fcab231e183ed755f2841c22b552f3d3"
+          "content" : "8f3a458a610aa77f2a52760e98bd3a2a05437a3604ac3cc5c3e6831483ead4486f39dd8056872cfa8e7367d3dcc64bd52335f1ee2fc14bb9e307526bf5baabbf"
         }
       ],
       "licenses" : [
@@ -146731,7 +146780,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-iam@3.1.195?type=jar",
+      "purl" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-iam@3.1.196?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -146785,44 +146834,44 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-image@3.1.195?type=jar",
+      "bom-ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-image@3.1.196?type=jar",
       "group" : "com.huaweicloud.sdk",
       "name" : "huaweicloud-sdk-image",
-      "version" : "3.1.195",
+      "version" : "3.1.196",
       "description" : "Services code for Huawei Cloud SDK for Java",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "99c434851dfe61040ef7636bf2384655"
+          "content" : "8c8158a14510e6ec23e9cac5181c4942"
         },
         {
           "alg" : "SHA-1",
-          "content" : "c9adbc66c63386804d3e2db775c502353b796a0b"
+          "content" : "1d3b2fc2ba89fdc94ad37e189c139275d8ae4f6d"
         },
         {
           "alg" : "SHA-256",
-          "content" : "a60de6cbdb9cb5f084ef001792bdb1f3c728f70f560091b7acc854808d73c26c"
+          "content" : "1d9c125b18453315461d835dfb296674d82ad32047ec6de78ab0f53bc92e492e"
         },
         {
           "alg" : "SHA-512",
-          "content" : "a216af0cc211a77ab5faf1b7c10acfec5e4980cd40aaa41970f56ce50d03d2039a5f6bf4789e5bfca62af41a3bdaaff4aa5f5914fd1a2863c16c3f6a58d4763e"
+          "content" : "9c340fd36f59febed3643fbc02dabb8f19a895b288615d869a7425440d3686cd3030f550f078b27892b8a5cc4b94567cb431259af25adf87bb4f93b1dd246a59"
         },
         {
           "alg" : "SHA-384",
-          "content" : "1f3eb975833d1fdcbae2706673fd7350df5312c47d0a2810357cd02d1664cd6e66ef931f8fc5dc848b2b40ac39d633b6"
+          "content" : "8c47c561a5e40e51a523be72293a6f639b63472a79b520ed9b154d7f45f6f55f3a765178ca7304c35c779d69ca96a85c"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "1ab4cde64d73c37affb32840b9a21072ef8ba9a592b9dc0f323b42578fb02edb30cc00066964e07d9b75bf273112422e"
+          "content" : "208e36e660371e54703189fdea0c8a3bc4f4b7d3c59cbbb1287377e8aec0af814e76ceb0799244e96e377dbc34d8efa8"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "ee9e192af7b9792cf35a111afe61029da586e845f6155d95ea4a96b6e7b26bad"
+          "content" : "0f168b19722a4adfab0ac43fd951878d0fd47f3b7282212773a42985f087dfa6"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "865a66affa56e3750075259c50e8f0cf438c8087545aca5d39111834718cff192af4f191769b0b968a703dc05dd38a0519c125620e95f2085d456e407ceb34b0"
+          "content" : "968fe38c2f536d5f60b1d1975eb184f571741ae23073603504109348964f84c20bd951d77228429b9bd91bc0334850e5b26fc4bb73a69339af49d42e1a135c77"
         }
       ],
       "licenses" : [
@@ -146832,7 +146881,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-image@3.1.195?type=jar",
+      "purl" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-image@3.1.196?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -147109,44 +147158,44 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-smn@3.1.195?type=jar",
+      "bom-ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-smn@3.1.196?type=jar",
       "group" : "com.huaweicloud.sdk",
       "name" : "huaweicloud-sdk-smn",
-      "version" : "3.1.195",
+      "version" : "3.1.196",
       "description" : "Services code for Huawei Cloud SDK for Java",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "da3ce01033cbf2fd03799416ffff4220"
+          "content" : "4686511fd28076625c2294c09ff38544"
         },
         {
           "alg" : "SHA-1",
-          "content" : "a12ae963483aff7e54181f9b828297f1a214d8cf"
+          "content" : "ae199e495f8993712a21250d17b1aee18aa252c0"
         },
         {
           "alg" : "SHA-256",
-          "content" : "8efc92ef4430407fb8906786d86b36be0f5a3476195aeb44dbe52970064aebe7"
+          "content" : "f210aadcaa54e46f35f691692c535a47666d70b1db08f09505e9372f0930f0e7"
         },
         {
           "alg" : "SHA-512",
-          "content" : "2c4e4acb93f3e279b27c2ff62a06d8d5ca52c864f778a46d212a7d0288c9e189fc80118fff409545df48f7bf68b57aef2c2df319563f135d61e6f64246d007d6"
+          "content" : "885fb817905576ed47d85b5402d67d602fc4987d7c4dfe137c798bbeccee87f1b091751a4378f2b4d66a2494c65e7a997e76d44c68b33abf54b9c1c8755722ac"
         },
         {
           "alg" : "SHA-384",
-          "content" : "b74efc33e33463f45a8606798e712c6f67ae244afd3b39115563a42436080857bcf5655a3de5e1c3dce154363520e7cf"
+          "content" : "0486c41b836ba6bb39821ff5f2a97dda25ab4fc6b1e46edf43d1a250318253e80b7d20555a32d289319d8c082c6b5166"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "25ad3ab0e72bf907b110f52efa7a347b10c68704d0d6afc1b33a9813ef921f5c325cefe6e1f639c45def9e13fee16e8e"
+          "content" : "00e658b6d19e40830c7b9c61a7b7dcf5cd1225c903699bc97b7fb087f81ca46a2642c0027b7913fd2bab75780bbec300"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "df72a140c14cfc813668d097f511e923dbdf08dabd8d5f5fd2e649d4c4627e4e"
+          "content" : "571aeadb5a6ea3980c58a13285d88526143cc6ced57423d532323c1920c835a8"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "9552b9f3d4bcd13d6852c6ee448bcca1e9920368a9983efd73b8da5834fcdc5d544b2a59991972e5e93ef1663aa5642fa79c34f3c659d2ab8edb9c22b9bc5ca8"
+          "content" : "aa916395014bf6ff246c84f0f39b2019871d70b316e37b5ce7a019cf36e83f891e68fff4cb25b8ff439f730e2d2cafa4cc1a968eaae24551867193193ce573b7"
         }
       ],
       "licenses" : [
@@ -147156,7 +147205,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-smn@3.1.195?type=jar",
+      "purl" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-smn@3.1.196?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -183100,44 +183149,44 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.pubnub/pubnub-gson@13.2.1?type=jar",
+      "bom-ref" : "pkg:maven/com.pubnub/pubnub-gson@13.3.0?type=jar",
       "group" : "com.pubnub",
       "name" : "pubnub-gson",
-      "version" : "13.2.1",
+      "version" : "13.3.0",
       "description" : "PubNub is a cross-platform client-to-client (1:1 and 1:many) push service in the cloud, capable of broadcasting real-time messages to millions of web and mobile clients simultaneously, in less than a quarter second!",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "377dbc1b3d5ca37fe801bc785bca612d"
+          "content" : "d69769647373a0ea2d60b3699230ca15"
         },
         {
           "alg" : "SHA-1",
-          "content" : "76c4daf5a51422f3b5f8cc1a36e9bbb994ff5ae2"
+          "content" : "216766ee3ce03c1c2f9074c5809ed3ce79b06084"
         },
         {
           "alg" : "SHA-256",
-          "content" : "4427918b8e3d59b1801d921405755ae39888a0137c58aabf41d7949500a6caa4"
+          "content" : "6a25e4353049a940e51f52b4766ee8541db595570df817d18fd4f9b3a08b83d2"
         },
         {
           "alg" : "SHA-512",
-          "content" : "6b3b38a57dfdf44bf4f8304706409b2e3f4ac05355ba027aa7c3910daa22e4e62e3a5e82da978ce860c23d4597873690ae53caab79c7a8cc65f615375f307787"
+          "content" : "72d0c0d86658921b9f800089345f533b4d89706b97abf6dffdbb69b5c1dacd9851dd43cd2e66b02b499c282be733e191a573dc0c996a902e4b0fd97221bc1c2e"
         },
         {
           "alg" : "SHA-384",
-          "content" : "ca2c45cd0512f836a72f8f3b7b34687bb81dc2ce85b49922249664e3f4f1faee8dda0a65c70bfa1a23b41ae672b61222"
+          "content" : "0c7340356799700504a39518369440fe9858bb4f641aa04f5370c7296ecd90d933ebefb4c3cd1b0da5b1438ee321e889"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "f91e5d711be0402e691136c659b7329ec1678cbbcc5f1e79dde09d94a312054687079939fb8226412223ae848b0e23d6"
+          "content" : "0377fe180d7308d2917dd492b986db7b22e9193940845f367b4b4d4f3a70d1c02bbc9a35dafdc27ebad40823fd31b7dc"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "b2a767f1d894281b163f42ce48e89a9f18f5a25ecd7da9b258225c2e1602877b"
+          "content" : "b2b9447ec94a5bbf28d5e660668e884817f6934a9bbfc65883b0cea3be656f72"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "25275e995e18e4005916721fb0b647efa2abd5f49fbc9f16d20906dd113671d5b28cbf6d7240c577f5dbda160d54b4d9ca56182914be8da8bb8ea56c5c11f19f"
+          "content" : "c70b3e92dc38d25957cb2cc4f0e6df3dad0010118349581b7694bf375bef25624ef869686c4c1bf2f9cb9bc70d205c67ae2a2c0ef303e707026580bef58a8779"
         }
       ],
       "licenses" : [
@@ -183148,7 +183197,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.pubnub/pubnub-gson@13.2.1?type=jar",
+      "purl" : "pkg:maven/com.pubnub/pubnub-gson@13.3.0?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -183162,44 +183211,44 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.pubnub/pubnub-gson-api@13.2.1?type=jar",
+      "bom-ref" : "pkg:maven/com.pubnub/pubnub-gson-api@13.3.0?type=jar",
       "group" : "com.pubnub",
       "name" : "pubnub-gson-api",
-      "version" : "13.2.1",
+      "version" : "13.3.0",
       "description" : "PubNub is a cross-platform client-to-client (1:1 and 1:many) push service in the cloud, capable of broadcasting real-time messages to millions of web and mobile clients simultaneously, in less than a quarter second!",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "8f60a39e91383264dc133b10af114fdd"
+          "content" : "32177c124c916ffc00c1a971e05cc740"
         },
         {
           "alg" : "SHA-1",
-          "content" : "551a0929eac91b069afa3403f6f5b62c2cadec71"
+          "content" : "819c450e244657fa59472961c3246f6babc820b3"
         },
         {
           "alg" : "SHA-256",
-          "content" : "5be09573547c73dc497598a78f6c606af2db5dbdc89563ff42d5e33a77acbeb9"
+          "content" : "3ea7b64be35dec1941bac278b630ac2b965af2962888a2b5862a2381b08e8eae"
         },
         {
           "alg" : "SHA-512",
-          "content" : "47371a2c39722008664bbceaaf005f265a66f01f6fc146de48f52b185ec6171fc5b666194021d783d319f7f31aad88f9d38659c6dd27e1609c54bd00340a4976"
+          "content" : "0e36e742e31f1ecd439bf08569f3c74ed7d74ac0edc2fd480cd370e601cdc158c575b1155ece1ebc2287d0977be40534f7868d7a5436efcd51908a47ee581f63"
         },
         {
           "alg" : "SHA-384",
-          "content" : "083f5f88cd04730ebe817630bca28fb065f94face789c017419989363dcf83683d4c93b78916ff387e671c910afff73a"
+          "content" : "05a77d4bfa7108f76c9565d30b8f5ed9a209fe9c782da61d9ffcf92585227388c3bf4c2336337bc45b9dba09507a6cb3"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "bba858653ffff8e1abd06da021db0001ba21d9d2a666e0109917577e09126cfdfabae200019882364dadf1490a5c1c93"
+          "content" : "fb04c6457c3b550d262bff65e81cd93bb90c7754f5eb9f542ce5a0ab5c42c9b6e37da3b507896e499cca7361c16266f0"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "4554ed1d49a9e15216ad4c2437a2655566487d6619a14e925a75e18c16394333"
+          "content" : "6457ffbdcbb43a48def113ebfc7cd9b9ac348b748c156643d061f1cddf722604"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "f44922c6bb704b5f7bdcd81493af53be2ca8c01fb19f6dbf168c39c24f6c8eb3cb3d01836269625d492a1709acceb8c45741f82f1c87f346327bef818909fa33"
+          "content" : "0ced3889d2dbcedfeaab7ca707107da54b205908eada7c7c22f8b9f742b77dd3dfb0fb2768c0fd9d55bd5cfb38eb43e354e4b3927aaea61ce6c17bd081773abf"
         }
       ],
       "licenses" : [
@@ -183210,7 +183259,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.pubnub/pubnub-gson-api@13.2.1?type=jar",
+      "purl" : "pkg:maven/com.pubnub/pubnub-gson-api@13.3.0?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -183224,44 +183273,44 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.pubnub/pubnub-kotlin-core-api-jvm@13.2.1?type=jar",
+      "bom-ref" : "pkg:maven/com.pubnub/pubnub-kotlin-core-api-jvm@13.3.0?type=jar",
       "group" : "com.pubnub",
       "name" : "pubnub-kotlin-core-api-jvm",
-      "version" : "13.2.1",
+      "version" : "13.3.0",
       "description" : "PubNub is a cross-platform client-to-client (1:1 and 1:many) push service in the cloud, capable of broadcasting real-time messages to millions of web and mobile clients simultaneously, in less than a quarter second!",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "5a1ea260a5e99602bbd2ee17d1f70a9b"
+          "content" : "8324c7730bf1734987b5a4fdd6985141"
         },
         {
           "alg" : "SHA-1",
-          "content" : "730ebda165489b015cf19897ddbe373e319e0793"
+          "content" : "a04ed5322504337a5ebafb6de7e2b89ce9225b5c"
         },
         {
           "alg" : "SHA-256",
-          "content" : "98a37b6860760c13faf1992e12f87e5f288fb1c62f636fbe384cba5347cf2b99"
+          "content" : "a5d65d9406539c47d929d816c478193e0e300820860544845d7f06f6eb9b5c32"
         },
         {
           "alg" : "SHA-512",
-          "content" : "092248e072a15bd16895182fff3b2047afe6e18333521b620d2a3bbeee34c131255063226a279c3eabe834d2c650367ff3a56b680db498ffaf4a27ca6d355cd5"
+          "content" : "a5f282ee5145f5d02ea74ea050509d5745b63186d7df992ffcf04de0bf76d93e13b2581946ae06172c44cc96c688db265dc0c03e36b1b48796f513a454f35d62"
         },
         {
           "alg" : "SHA-384",
-          "content" : "098c3fcb889f7fd6cfe948b192e5f2880d8a8295eed0ee48ffdee18d03a9358c6ddd3264136433238b6bd4e7f7431fdb"
+          "content" : "521caf79e2168d5fce9e4c7e1e4992b5e87c0cb0e9a17406b515ecdd52600b447627538568149a1956a92865b06a0591"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "fe5a49533d92579d3362c21c278d6f5ba81ad4508a1a26c0211fb0ddb954c1c658420adb9d29739cf18826f7e953b47c"
+          "content" : "678d65cca94b197c98135b239eaf336062fac987617ef2e86c7f86dca1c939e15406ff5da7c0ad1c2900d50a59238f4b"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "257511df5bfbf11813ad031ece4b64bccc461e75a6ded8640faafd3f0b66b650"
+          "content" : "6ee5246b129aa44eb56c12413440eacd2f865aef79aa6abd617e62b458e9d52f"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "b88764bf7406373957e60919af1559dd8fc094f1aeaa2077f10c76af2f55030f84689ae060a48b4c64ef518ab71365c6b61873a08e48ead58928f9bfab5695d0"
+          "content" : "30f4e195368bf77fdd8b91744acc3db9cc402ad0b79fbf4f23bdcd6a125dca9dd7b9c6ae82355baff7755b3fec4994254c73bdfb7da6774e5a7e493344d75156"
         }
       ],
       "licenses" : [
@@ -183272,7 +183321,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.pubnub/pubnub-kotlin-core-api-jvm@13.2.1?type=jar",
+      "purl" : "pkg:maven/com.pubnub/pubnub-kotlin-core-api-jvm@13.3.0?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -183474,44 +183523,44 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.pubnub/pubnub-gson-impl@13.2.1?type=jar",
+      "bom-ref" : "pkg:maven/com.pubnub/pubnub-gson-impl@13.3.0?type=jar",
       "group" : "com.pubnub",
       "name" : "pubnub-gson-impl",
-      "version" : "13.2.1",
+      "version" : "13.3.0",
       "description" : "PubNub is a cross-platform client-to-client (1:1 and 1:many) push service in the cloud, capable of broadcasting real-time messages to millions of web and mobile clients simultaneously, in less than a quarter second!",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "1565b66ab70f4258896884040c2e51f1"
+          "content" : "3b4f2891e515188698d0846c5a0d00d9"
         },
         {
           "alg" : "SHA-1",
-          "content" : "d4f9fa8cd62aceb4ec74bbecb7c5dd4a345ea49b"
+          "content" : "bfc875ff409cb9cbac20db274abad34d3fc4280f"
         },
         {
           "alg" : "SHA-256",
-          "content" : "38e5000b0f1e6d0f3097b959a2317551c68157c3abb0512609aff52d4deebe39"
+          "content" : "5064ca3012f7b4191ca68ed7b01a9bd68268724503be54c9bf32d847416af02f"
         },
         {
           "alg" : "SHA-512",
-          "content" : "7a952968fb35ae1ed9a34f2b94eb6d4c9e60aa1e49634f48fc7f24a73b4f0d9fe8da5213b4cb5499cc525e410aed6ab22a9f26b3282697fe081e9fa46e360bdd"
+          "content" : "de236c9ddd8da178042caa35e4edb772cfc1d54d3f649d3aef5cc50277a32094f8aaf11b1a3842fc184257411e27d6d4ece8036f8da0edcd1aa47ac2c680ba67"
         },
         {
           "alg" : "SHA-384",
-          "content" : "813e40093617f948abf16cfc2acd55c98b2f2f2adab6ec5289eddf1a9125ab9fddcac101a44a8de0cd785165595d126a"
+          "content" : "44831158a6de526b0afbf4046040c0834adf4b071a69f7b4e8f243e8ed5ca40c6c691191bf199e2b101a13367f962dce"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "1c017ad1c1be3e63ccd27ae452e3afe82f84835cea4f4f93cc160c093d277c32f3fca33231d0ca909c3b8a37154ae239"
+          "content" : "cde6c3e622eea109a17f83058d2f136d96500763ea33fee7a4f163fbf27d3b11f50c9bc4c6b3334946cd5c947d324683"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "4ce9f0ca439a22c1026425a5c318fb6ba0340910a9b79a788e002903cfdd3f50"
+          "content" : "befb59b014b69af00e92e918fefadbff20774428212390b14e91aec8b8bd5767"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "c874696ab9cbae8e53a212454937a398732fb982492ee63d9d5a02ce54dfc6a53c5811f400ea258b804b4c5f8ee3871b17af3d842c866004073c86298571ffe7"
+          "content" : "0992ff0ce4e5ff468cefcd25d85edaf9f382f213cc48c3fcfd355f45641a9f74b13c3d4e18cbc72c9f636095c35f3aa852c33ac4b5c9534616a121aaec08de2c"
         }
       ],
       "licenses" : [
@@ -183522,7 +183571,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.pubnub/pubnub-gson-impl@13.2.1?type=jar",
+      "purl" : "pkg:maven/com.pubnub/pubnub-gson-impl@13.3.0?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -183536,44 +183585,44 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.pubnub/pubnub-kotlin-impl@13.2.1?type=jar",
+      "bom-ref" : "pkg:maven/com.pubnub/pubnub-kotlin-impl@13.3.0?type=jar",
       "group" : "com.pubnub",
       "name" : "pubnub-kotlin-impl",
-      "version" : "13.2.1",
+      "version" : "13.3.0",
       "description" : "PubNub is a cross-platform client-to-client (1:1 and 1:many) push service in the cloud, capable of broadcasting real-time messages to millions of web and mobile clients simultaneously, in less than a quarter second!",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "ec720584693e8c7aed61e2b317ea3c54"
+          "content" : "849064e58b1c2dbfad8140cde26cea00"
         },
         {
           "alg" : "SHA-1",
-          "content" : "ecb2ad78920fc1d5faf62e7e6bb02133782ecbe3"
+          "content" : "0ad64a525b082613f42a78d6a36e0d7938474322"
         },
         {
           "alg" : "SHA-256",
-          "content" : "58af3e7770652f41be82d0fdd85295d228cf49a1b7ab04270a290514d31fb9c6"
+          "content" : "1da41ea5ff32e6da18e173d79eb16438cdfe5c20cfce5ab96419f3d29d9c2552"
         },
         {
           "alg" : "SHA-512",
-          "content" : "7c0034225788797b20eb8d79ef74797b6cf380aa9ecf22147478700d3c321d3e3e7cf02839559810566000d9cac0abec4198cffb44dfc8e1d528d638274df695"
+          "content" : "9514ddd2d119402b8f0228a0b69f85c9b1f035708215522b33758b51962eeb7bbc00e9786f597707a2d143ff3cb04e538e481b034628e47b7ad4d49e9c68a06f"
         },
         {
           "alg" : "SHA-384",
-          "content" : "1c11e56ebe672d2622a647bd6fc394d25d3c97724e35caffc3be69a6e62da402eecfdc8e48a7f92474f80085464f75b1"
+          "content" : "2cfa7af01d6b058dede763104509b5f869eb319166147566aa42b819d50bf20ae58a517fcfbee809711d692dd671ad1d"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "8af92b2d274924c88ac929b169fc26ed53d9e0413a24803300224dc8aca14363cea2b1daf96b7da8a78ee743644248a6"
+          "content" : "4eb6eab17b4c8101052be7f9968d55249c8337aa464aaa4021f6ff47f221a11fc1a28071d9ce120cfb3368b3f4f587af"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "5dd913f3303429f4e76c1e958ed0f9b9244f56d19a1280500b0cb196e52cc828"
+          "content" : "709ccf29168e934f62f3cff9c4bfbba5fab0978e69574b1a9769ac9fa29f9df9"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "2a7eaebce111b248089590a763548016caad5a3793db8bcdf51a8c813173f6fa3055a4596f2d4f0bb95b67e4642f8ab930560e12df47d582611e24e959fe138f"
+          "content" : "80e0e5d220dac0123db84d7644710901b274bc5a98d301a172ec335b0bb84621017d576297eec295f674cd0f1b39d35444e9c22e1b26fa457a6f6f20c696b1ee"
         }
       ],
       "licenses" : [
@@ -183584,7 +183633,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.pubnub/pubnub-kotlin-impl@13.2.1?type=jar",
+      "purl" : "pkg:maven/com.pubnub/pubnub-kotlin-impl@13.3.0?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -183598,10 +183647,10 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.pubnub/pubnub-kotlin-api-jvm@13.2.1?type=jar",
+      "bom-ref" : "pkg:maven/com.pubnub/pubnub-kotlin-api-jvm@13.3.0?type=jar",
       "group" : "com.pubnub",
       "name" : "pubnub-kotlin-api-jvm",
-      "version" : "13.2.1",
+      "version" : "13.3.0",
       "description" : "PubNub is a cross-platform client-to-client (1:1 and 1:many) push service in the cloud, capable of broadcasting real-time messages to millions of web and mobile clients simultaneously, in less than a quarter second!",
       "scope" : "required",
       "hashes" : [
@@ -183646,7 +183695,7 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.pubnub/pubnub-kotlin-api-jvm@13.2.1?type=jar",
+      "purl" : "pkg:maven/com.pubnub/pubnub-kotlin-api-jvm@13.3.0?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
@@ -212861,44 +212910,44 @@
     },
     {
       "type" : "library",
-      "bom-ref" : "pkg:maven/com.aayushatharva.brotli4j/native-linux-x86_64@1.23.0?type=jar",
+      "bom-ref" : "pkg:maven/com.aayushatharva.brotli4j/native-linux-aarch64@1.23.0?type=jar",
       "group" : "com.aayushatharva.brotli4j",
-      "name" : "native-linux-x86_64",
+      "name" : "native-linux-aarch64",
       "version" : "1.23.0",
       "description" : "Brotli4j provides Brotli compression and decompression for Java.",
       "scope" : "required",
       "hashes" : [
         {
           "alg" : "MD5",
-          "content" : "51fa862b299cb45302d54c60ac4333ab"
+          "content" : "3dbc9cc3dcfccf94dccd9910e55b3781"
         },
         {
           "alg" : "SHA-1",
-          "content" : "6eac7a222b9fba79f2171dd51e08ff2f66efa31b"
+          "content" : "6e59e19928a926e8ec5e982465da37af97aab35f"
         },
         {
           "alg" : "SHA-256",
-          "content" : "c504e243961c4229d8e486ca8f87b757ad9a033dda471061c0134c050ddcaa7c"
+          "content" : "900c73dac7330ebe966071c770d2d4357c4de3f9417262ed4408dc08f2b573b6"
         },
         {
           "alg" : "SHA-512",
-          "content" : "bf958c1fe8bf7e08af4dfcb235a5b24b03990446f547c0400f399f5b510436b4d80d721d3df24417f24c199d5d97fe9c237060b8721d7757e0f5ea2f349a1014"
+          "content" : "ecbf8769657f0d1fd7468d530d5eb7f0295b229f45e93ee5e554ebbc1fb6ca919d26fbe4c69c7a68644990b2264748372a88a73b295c868a4d697a79f30878ea"
         },
         {
           "alg" : "SHA-384",
-          "content" : "ca902495d7025b0cc3c24fadcdcfee8fcb4903a5d307d8375a0c8567a2d40ae62bca437bb53d57fda6961bdb75c17744"
+          "content" : "1ab0035a744b731d1ad60f3a9e744e23aab1db7f09c6f72a7dba041025569c8c7ad5831f5912862f87ebfe82fba36325"
         },
         {
           "alg" : "SHA3-384",
-          "content" : "38a155cbcb9c41df65c9cb581dcf845a870df5cdb942986e8d6309c5218b352f2ac9270aaa537cfbd06cc04076b60f51"
+          "content" : "cbe5dfae53fac7708b86d7a7e18c513b45e6cabcb37eddca2925e81c31e58b2918b581fd178c0d3287e493217a9dc3ba"
         },
         {
           "alg" : "SHA3-256",
-          "content" : "a864849a34ac39c89df30a5eb7c6f523e632092f162b2d43af2979e7592eb93a"
+          "content" : "7b1894ee0887ce4dbc6b240e0ed30d6b4e99fca5745f075338c1d824b024cd12"
         },
         {
           "alg" : "SHA3-512",
-          "content" : "e56a19c2748a3134e0583fe84b205321027fdf0bc7075edeb11b45b904c8ae5b9111116dfe5a2a40966a7a5d46ea47bbcd62ec95b21d41ba9bf108386204bce5"
+          "content" : "046c9d54fd5339082f1e981ebfeb1d80bbeaef48664122451d9aaa39fdfa1f40b11e3a76558a13c821568f1f542c97239c6f2d17abf7e2f28539ee2ea023aa49"
         }
       ],
       "licenses" : [
@@ -212909,11 +212958,11 @@
           }
         }
       ],
-      "purl" : "pkg:maven/com.aayushatharva.brotli4j/native-linux-x86_64@1.23.0?type=jar",
+      "purl" : "pkg:maven/com.aayushatharva.brotli4j/native-linux-aarch64@1.23.0?type=jar",
       "externalReferences" : [
         {
           "type" : "website",
-          "url" : "https://github.com/hyperxpro/Brotli4j/natives/native-linux-x86_64"
+          "url" : "https://github.com/hyperxpro/Brotli4j/natives/native-linux-aarch64"
         },
         {
           "type" : "distribution-intake",
@@ -212921,7 +212970,7 @@
         },
         {
           "type" : "vcs",
-          "url" : "https://github.com/hyperxpro/Brotli4j.git/natives/native-linux-x86_64"
+          "url" : "https://github.com/hyperxpro/Brotli4j.git/natives/native-linux-aarch64"
         }
       ]
     },
@@ -220598,40 +220647,6 @@
       "version" : "4.21.0-SNAPSHOT",
       "description" : "Camel Debezium Maven Plugin",
       "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "3f423773354c7a4aac00bf8159915b79"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "c373bcd2910c1c2d9d896536704771275042ccd7"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "f02861de8bd9703e71ac6ddc3087dbf517b00c8a36ac319c9b3c947240758b02"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "8384aad348e6b57c4b4d5c3d4cb6ec0a63cfa109861393e621ca51600c2b57f36f7672c4d17c72fa8f1406e3d1704482fd652a37b7af55160ce79ad9450cb846"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "66c141884eaff9b509304ac191dd9aea5d8946ac9ae63ba355ac73155a33720dfc90040836fa9e46ec3cc8433725f46b"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "3ed46d4ec704c4fcb2b4b3065732c769e3f09b5c60e82c89d02dc7ef506dc061584a3b0fb7f0b491985e0b9f1ce2fc81"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "af71ba31e720d561a11ad18cbecd853ffe50b8bb0e60bc59161c888576fcca64"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "4aad7e29cbb682b1065d28d90e9e0695a48087f2ad1cf52696c7d87bcd8fbcf8f6f6b1382ae76ae8bcac82b5d24db395674419bdf220a6c61ef3f409da0e5073"
-        }
-      ],
       "licenses" : [
         {
           "license" : {
@@ -220673,40 +220688,6 @@
       "version" : "4.21.0-SNAPSHOT",
       "description" : "Camel Salesforce Maven Plugin",
       "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "9dd04b1e83facd9bd7eba19145762a5d"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "04227807baf9ff20b1f26a30e6a22eaa820e611c"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "229e1590c4d5c5c5d53d2389e2acd7ad2bf5988494239a1b15466f0a3edf20e6"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "46e5ffd2eb8fef39f72752b17d63d4513713e54b5487147667a9fa973af2ee36be3b3ffb05e15cce1cf9a3fda419d93e7babb2ff3d0d402167a1b14e889adc71"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "a385c8a8504dadc25693e1cf3c6f94918408f309006e67eef3c4d5d585172c6d61ec1252e3f4b6489c05cc1dc074afe5"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "89a0d6fc6ac360937558a8b93abb74ed37bb97d92f86968353d0fe6c2dd0b1d13ae4440a7c51d5cbca0aafcdb41aef81"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "1a31818fd25108175b4dbafc91be18196a10abe9feaec6b1613126597e84208f"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "16f2ec5c5e66dabfc10108ab1c0d76aec681ac461d2060652acaf2b212fd1fc01f523aaa4bc76375a0b072d1a90cd7f24fc2cc4847afe0fd1cc0dcb40cc97271"
-        }
-      ],
       "licenses" : [
         {
           "license" : {
@@ -220826,40 +220807,6 @@
       "version" : "4.21.0-SNAPSHOT",
       "description" : "Camel ServiceNow Maven Plugin",
       "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "88b06664749544550d6a1cce7a7044f6"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "9435263628a36fef58dc4b2d13ec0095e398ba50"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "2e4f8cdcf41396c8d1eba72a1d415ec9c9dbb144bbeb91e4fefddacfe616240f"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "848e35e1d6abf3f37638d9e44e56786f68ef6f22ab5012284bcfe96e57d71334472f2e1bf73d421d6f8f2eb904887cc49d8ab4c8e854fe835e151953bc597db0"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "4e26e296261e3f56a7f94f3cfa631d3a918db67c52e8c28501db92fb15bed34ac78854d50638c995e83289bedad6c38b"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "ee16e7e66e07dfbe07d71d57abff93fbcf1d97364fe9d8eda26028ea99d73fda283741679b9c552dd2cdf73488511030"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "6d5bc06ba44301c419feed275c62517489b798903248642dfcd2a12243b94f51"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "0ef94592bed8378226cb381ee58dc58abca2a62989217211d974fa6ec8b709ac50923cabda9a2a7f417f7f6c4ce0f81ced21566fee925ce666c9a5f3cbce264f"
-        }
-      ],
       "licenses" : [
         {
           "license" : {
@@ -220901,40 +220848,6 @@
       "version" : "4.21.0-SNAPSHOT",
       "description" : "Maven plugin to source code generate csimple language",
       "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "05243c4f77737e112e8bf35f10c66539"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "8f7c3d1657fc3146e73070dd63767b9aee7dfb74"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "76e789b7795b61acf3794550a4f495234f87b211c294fb43f11abb4fb7d05341"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "10dfb12e0102381e62f3b720b0793eb0a0518dda71e4e04e7782fca0c0830c8237cd79678b2555ee6ad60ebe1b9cc46dfefefc290fdaeeacdd3b13856adcffb6"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "40119b003388da0349ca959816257b41a22ec708bb989fc07029aabef87dff79104987e479263b23b21afeac224ce363"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "0e879992d12ba54dd5d11e0b5b88a54ceca996d0f8d4d48d023fd769851a272752725a63ab7f40a27d79228e1cbb6776"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "c112d2f1b8bc25f9421c300992d1bf2ee4c003c5991f47c457c5137d0597082e"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "cd5966d47c138d2bd8444675f8210c026af89c4914ea591ce8ba539147c2ab29a263f58ac398fee0e73759e690d21716ea775fc351a8b858655bebf1ff514588"
-        }
-      ],
       "licenses" : [
         {
           "license" : {
@@ -220976,40 +220889,6 @@
       "version" : "4.21.0-SNAPSHOT",
       "description" : "Maven plugin with tools to generate reports on your Camel projects",
       "scope" : "required",
-      "hashes" : [
-        {
-          "alg" : "MD5",
-          "content" : "57f11f02cf10db8edcb8995208493c1c"
-        },
-        {
-          "alg" : "SHA-1",
-          "content" : "8e5765b31b0f79d06a78e466214fe567eb458fe1"
-        },
-        {
-          "alg" : "SHA-256",
-          "content" : "db390ccfaba032f74f85eabcb8982f6b53f68c0da2c3671f6cea76a4151a25b3"
-        },
-        {
-          "alg" : "SHA-512",
-          "content" : "b356a3f5c206deafdb339ac8e8dd070c9bb7f2e92bd1da38e339b922df842efd857ff9bd07dfdc88db9a71c289176126048ac133166bf921aac863ade6bec499"
-        },
-        {
-          "alg" : "SHA-384",
-          "content" : "227836a4d1b740c694e0d6ba6616478120b15c3e518221d5156f2496d6d00f0a8f42d11aa2aedde4da579af06b52edd9"
-        },
-        {
-          "alg" : "SHA3-384",
-          "content" : "d9543fad7f065bb54846d973455def9f07b1c875deeba211faaee9a6d8ebf92bb95f1157924d83931d90074d7df1b400"
-        },
-        {
-          "alg" : "SHA3-256",
-          "content" : "bb2cfc2187a27419b0fe69b5c376009fecfba978489ceed39181f153e75c11f0"
-        },
-        {
-          "alg" : "SHA3-512",
-          "content" : "1f123513c21d288ce79884709ff54659773d1537e459224fefa6d86cfc8caa8cd63705ff09d286381e1fa5b13b6c03a0f8a10e533305114eed9c082920d8e678"
-        }
-      ],
       "licenses" : [
         {
           "license" : {
@@ -223617,9 +223496,9 @@
         "pkg:maven/org.apache.maven.resolver/maven-resolver-util@1.9.27?type=jar",
         "pkg:maven/org.apache.maven.resolver/maven-resolver-transport-file@1.9.27?type=jar",
         "pkg:maven/org.apache.maven.resolver/maven-resolver-transport-http@1.9.27?type=jar",
-        "pkg:maven/eu.maveniverse.maven.mima/context@2.4.43?type=jar",
-        "pkg:maven/eu.maveniverse.maven.mima.runtime/embedded-maven@2.4.43?type=jar",
-        "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-static@2.4.43?type=jar",
+        "pkg:maven/eu.maveniverse.maven.mima/context@2.4.44?type=jar",
+        "pkg:maven/eu.maveniverse.maven.mima.runtime/embedded-maven@2.4.44?type=jar",
+        "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-static@2.4.44?type=jar",
         "pkg:maven/org.codehaus.plexus/plexus-xml@3.0.1?type=jar"
       ]
     },
@@ -223717,20 +223596,20 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/eu.maveniverse.maven.mima/context@2.4.43?type=jar",
+      "ref" : "pkg:maven/eu.maveniverse.maven.mima/context@2.4.44?type=jar",
       "dependsOn" : [
         "pkg:maven/org.apache.maven.resolver/maven-resolver-api@1.9.27?type=jar",
         "pkg:maven/org.apache.maven.resolver/maven-resolver-util@1.9.27?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/eu.maveniverse.maven.mima.runtime/embedded-maven@2.4.43?type=jar",
+      "ref" : "pkg:maven/eu.maveniverse.maven.mima.runtime/embedded-maven@2.4.44?type=jar",
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-static@2.4.43?type=jar",
+      "ref" : "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-static@2.4.44?type=jar",
       "dependsOn" : [
-        "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-shared@2.4.43?type=jar",
+        "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-shared@2.4.44?type=jar",
         "pkg:maven/org.apache.maven.resolver/maven-resolver-api@1.9.27?type=jar",
         "pkg:maven/org.apache.maven.resolver/maven-resolver-spi@1.9.27?type=jar",
         "pkg:maven/org.apache.maven.resolver/maven-resolver-util@1.9.27?type=jar",
@@ -223742,12 +223621,22 @@
         "pkg:maven/org.apache.maven.resolver/maven-resolver-supplier@1.9.27?type=jar",
         "pkg:maven/org.apache.maven/maven-resolver-provider@3.9.12?type=jar",
         "pkg:maven/org.apache.maven/maven-model-builder@3.9.12?type=jar",
-        "pkg:maven/org.apache.maven/maven-settings-builder@3.9.15?type=jar"
+        "pkg:maven/org.apache.maven/maven-settings-builder@3.9.16?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-shared@2.4.43?type=jar",
+      "ref" : "pkg:maven/eu.maveniverse.maven.mima.runtime/standalone-shared@2.4.44?type=jar",
       "dependsOn" : [ ]
+    },
+    {
+      "ref" : "pkg:maven/org.apache.maven/maven-settings-builder@3.9.16?type=jar",
+      "dependsOn" : [
+        "pkg:maven/org.apache.maven/maven-builder-support@3.9.12?type=jar",
+        "pkg:maven/org.codehaus.plexus/plexus-interpolation@1.29?type=jar",
+        "pkg:maven/org.codehaus.plexus/plexus-utils@4.0.3?type=jar",
+        "pkg:maven/org.apache.maven/maven-settings@3.9.15?type=jar",
+        "pkg:maven/org.codehaus.plexus/plexus-sec-dispatcher@2.0?type=jar"
+      ]
     },
     {
       "ref" : "pkg:maven/org.apache.camel/camel-enforcer-rules@4.21.0-SNAPSHOT?type=jar",
@@ -232941,7 +232830,7 @@
         "pkg:maven/org.apache.camel/camel-azure-common@4.21.0-SNAPSHOT?type=jar",
         "pkg:maven/org.apache.camel/camel-support@4.21.0-SNAPSHOT?type=jar",
         "pkg:maven/com.azure/azure-storage-blob@12.32.0?type=jar",
-        "pkg:maven/com.azure/azure-storage-blob-changefeed@12.0.0-beta.36?type=jar",
+        "pkg:maven/com.azure/azure-storage-blob-changefeed@12.0.0-beta.37?type=jar",
         "pkg:maven/com.azure/azure-identity@1.18.1?type=jar",
         "pkg:maven/com.fasterxml.jackson.core/jackson-databind@2.21.3?type=jar",
         "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.3?type=jar",
@@ -232951,7 +232840,7 @@
       ]
     },
     {
-      "ref" : "pkg:maven/com.azure/azure-storage-blob-changefeed@12.0.0-beta.36?type=jar",
+      "ref" : "pkg:maven/com.azure/azure-storage-blob-changefeed@12.0.0-beta.37?type=jar",
       "dependsOn" : [
         "pkg:maven/com.azure/azure-json@1.5.0?type=jar",
         "pkg:maven/com.azure/azure-xml@1.2.0?type=jar",
@@ -240737,11 +240626,11 @@
       "dependsOn" : [
         "pkg:maven/org.apache.camel/camel-support@4.21.0-SNAPSHOT?type=jar",
         "pkg:maven/org.apache.camel/camel-huaweicloud-common@4.21.0-SNAPSHOT?type=jar",
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.195?type=jar"
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.196?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.195?type=jar",
+      "ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.196?type=jar",
       "dependsOn" : [
         "pkg:maven/org.yaml/snakeyaml@2.3?type=jar",
         "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.3?type=jar",
@@ -240782,16 +240671,16 @@
       "ref" : "pkg:maven/org.apache.camel/camel-huaweicloud-frs@4.21.0-SNAPSHOT?type=jar",
       "dependsOn" : [
         "pkg:maven/org.apache.camel/camel-huaweicloud-common@4.21.0-SNAPSHOT?type=jar",
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.195?type=jar",
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-frs@3.1.195?type=jar",
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.196?type=jar",
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-frs@3.1.196?type=jar",
         "pkg:maven/org.apache.camel/camel-support@4.21.0-SNAPSHOT?type=jar",
         "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.3?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-frs@3.1.195?type=jar",
+      "ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-frs@3.1.196?type=jar",
       "dependsOn" : [
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.195?type=jar"
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.196?type=jar"
       ]
     },
     {
@@ -240799,14 +240688,14 @@
       "dependsOn" : [
         "pkg:maven/org.apache.camel/camel-support@4.21.0-SNAPSHOT?type=jar",
         "pkg:maven/org.apache.camel/camel-huaweicloud-common@4.21.0-SNAPSHOT?type=jar",
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-functiongraph@3.1.195?type=jar",
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-functiongraph@3.1.196?type=jar",
         "pkg:maven/com.google.code.gson/gson@2.14.0?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-functiongraph@3.1.195?type=jar",
+      "ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-functiongraph@3.1.196?type=jar",
       "dependsOn" : [
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.195?type=jar"
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.196?type=jar"
       ]
     },
     {
@@ -240814,30 +240703,30 @@
       "dependsOn" : [
         "pkg:maven/org.apache.camel/camel-support@4.21.0-SNAPSHOT?type=jar",
         "pkg:maven/org.apache.camel/camel-huaweicloud-common@4.21.0-SNAPSHOT?type=jar",
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-iam@3.1.195?type=jar",
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-iam@3.1.196?type=jar",
         "pkg:maven/com.google.code.gson/gson@2.14.0?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-iam@3.1.195?type=jar",
+      "ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-iam@3.1.196?type=jar",
       "dependsOn" : [
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.195?type=jar"
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.196?type=jar"
       ]
     },
     {
       "ref" : "pkg:maven/org.apache.camel/camel-huaweicloud-imagerecognition@4.21.0-SNAPSHOT?type=jar",
       "dependsOn" : [
         "pkg:maven/org.apache.camel/camel-huaweicloud-common@4.21.0-SNAPSHOT?type=jar",
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.195?type=jar",
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-image@3.1.195?type=jar",
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.196?type=jar",
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-image@3.1.196?type=jar",
         "pkg:maven/org.apache.camel/camel-support@4.21.0-SNAPSHOT?type=jar",
         "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.3?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-image@3.1.195?type=jar",
+      "ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-image@3.1.196?type=jar",
       "dependsOn" : [
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.195?type=jar"
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.196?type=jar"
       ]
     },
     {
@@ -240878,15 +240767,15 @@
         "pkg:maven/org.apache.camel/camel-support@4.21.0-SNAPSHOT?type=jar",
         "pkg:maven/org.apache.camel/camel-huaweicloud-common@4.21.0-SNAPSHOT?type=jar",
         "pkg:maven/com.fasterxml.jackson.core/jackson-core@2.21.3?type=jar",
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.195?type=jar",
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-smn@3.1.195?type=jar",
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.196?type=jar",
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-smn@3.1.196?type=jar",
         "pkg:maven/org.apache.commons/commons-lang3@3.20.0?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-smn@3.1.195?type=jar",
+      "ref" : "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-smn@3.1.196?type=jar",
       "dependsOn" : [
-        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.195?type=jar"
+        "pkg:maven/com.huaweicloud.sdk/huaweicloud-sdk-core@3.1.196?type=jar"
       ]
     },
     {
@@ -245234,28 +245123,28 @@
       "ref" : "pkg:maven/org.apache.camel/camel-pubnub@4.21.0-SNAPSHOT?type=jar",
       "dependsOn" : [
         "pkg:maven/org.apache.camel/camel-support@4.21.0-SNAPSHOT?type=jar",
-        "pkg:maven/com.pubnub/pubnub-gson@13.2.1?type=jar",
+        "pkg:maven/com.pubnub/pubnub-gson@13.3.0?type=jar",
         "pkg:maven/com.google.code.gson/gson@2.14.0?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/com.pubnub/pubnub-gson@13.2.1?type=jar",
+      "ref" : "pkg:maven/com.pubnub/pubnub-gson@13.3.0?type=jar",
       "dependsOn" : [
-        "pkg:maven/com.pubnub/pubnub-gson-api@13.2.1?type=jar",
-        "pkg:maven/com.pubnub/pubnub-gson-impl@13.2.1?type=jar"
+        "pkg:maven/com.pubnub/pubnub-gson-api@13.3.0?type=jar",
+        "pkg:maven/com.pubnub/pubnub-gson-impl@13.3.0?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/com.pubnub/pubnub-gson-api@13.2.1?type=jar",
+      "ref" : "pkg:maven/com.pubnub/pubnub-gson-api@13.3.0?type=jar",
       "dependsOn" : [
-        "pkg:maven/com.pubnub/pubnub-kotlin-core-api-jvm@13.2.1?type=jar",
+        "pkg:maven/com.pubnub/pubnub-kotlin-core-api-jvm@13.3.0?type=jar",
         "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.2.21?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.18?type=jar",
         "pkg:maven/org.jetbrains/annotations@24.1.0?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/com.pubnub/pubnub-kotlin-core-api-jvm@13.2.1?type=jar",
+      "ref" : "pkg:maven/com.pubnub/pubnub-kotlin-core-api-jvm@13.3.0?type=jar",
       "dependsOn" : [
         "pkg:maven/com.squareup.retrofit2/retrofit@3.0.0?type=jar",
         "pkg:maven/com.squareup.okhttp3/okhttp-jvm@5.3.2?type=jar",
@@ -245281,19 +245170,19 @@
       ]
     },
     {
-      "ref" : "pkg:maven/com.pubnub/pubnub-gson-impl@13.2.1?type=jar",
+      "ref" : "pkg:maven/com.pubnub/pubnub-gson-impl@13.3.0?type=jar",
       "dependsOn" : [
-        "pkg:maven/com.pubnub/pubnub-gson-api@13.2.1?type=jar",
+        "pkg:maven/com.pubnub/pubnub-gson-api@13.3.0?type=jar",
         "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.2.21?type=jar",
-        "pkg:maven/com.pubnub/pubnub-kotlin-impl@13.2.1?type=jar",
+        "pkg:maven/com.pubnub/pubnub-kotlin-impl@13.3.0?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.18?type=jar",
         "pkg:maven/org.jetbrains/annotations@24.1.0?type=jar"
       ]
     },
     {
-      "ref" : "pkg:maven/com.pubnub/pubnub-kotlin-impl@13.2.1?type=jar",
+      "ref" : "pkg:maven/com.pubnub/pubnub-kotlin-impl@13.3.0?type=jar",
       "dependsOn" : [
-        "pkg:maven/com.pubnub/pubnub-kotlin-api-jvm@13.2.1?type=jar",
+        "pkg:maven/com.pubnub/pubnub-kotlin-api-jvm@13.3.0?type=jar",
         "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.2.21?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.18?type=jar",
         "pkg:maven/com.squareup.retrofit2/retrofit@3.0.0?type=jar",
@@ -245305,13 +245194,13 @@
       ]
     },
     {
-      "ref" : "pkg:maven/com.pubnub/pubnub-kotlin-api-jvm@13.2.1?type=jar",
+      "ref" : "pkg:maven/com.pubnub/pubnub-kotlin-api-jvm@13.3.0?type=jar",
       "dependsOn" : [
         "pkg:maven/com.squareup.retrofit2/retrofit@3.0.0?type=jar",
         "pkg:maven/com.squareup.okhttp3/okhttp-jvm@5.3.2?type=jar",
         "pkg:maven/com.squareup.okhttp3/logging-interceptor@5.3.2?type=jar",
         "pkg:maven/org.json/json@20240303?type=jar",
-        "pkg:maven/com.pubnub/pubnub-kotlin-core-api-jvm@13.2.1?type=jar",
+        "pkg:maven/com.pubnub/pubnub-kotlin-core-api-jvm@13.3.0?type=jar",
         "pkg:maven/org.jetbrains.kotlinx/kotlinx-datetime-jvm@0.7.1?type=jar",
         "pkg:maven/org.jetbrains.kotlin/kotlin-stdlib@2.2.21?type=jar",
         "pkg:maven/org.slf4j/slf4j-api@2.0.18?type=jar",
@@ -249372,7 +249261,7 @@
       "ref" : "pkg:maven/com.aayushatharva.brotli4j/brotli4j@1.23.0?type=jar",
       "dependsOn" : [
         "pkg:maven/com.aayushatharva.brotli4j/service@1.23.0?type=jar",
-        "pkg:maven/com.aayushatharva.brotli4j/native-linux-x86_64@1.23.0?type=jar"
+        "pkg:maven/com.aayushatharva.brotli4j/native-linux-aarch64@1.23.0?type=jar"
       ]
     },
     {
@@ -249380,7 +249269,7 @@
       "dependsOn" : [ ]
     },
     {
-      "ref" : "pkg:maven/com.aayushatharva.brotli4j/native-linux-x86_64@1.23.0?type=jar",
+      "ref" : "pkg:maven/com.aayushatharva.brotli4j/native-linux-aarch64@1.23.0?type=jar",
       "dependsOn" : [ ]
     },
     {
