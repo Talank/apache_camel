@@ -18,23 +18,24 @@
 name: Generate SBOM
 
 on:
-  schedule:
-    # Every 24 hours
-  - cron: '30 14 * * 0'
   workflow_dispatch:
 
 permissions: {}
 jobs:
   build:
-    if: github.repository == 'apache/camel'
+    if: always()
     permissions:
       contents: write
       pull-requests: write # to create a PR (peter-evans/create-pull-request)
 
-    runs-on: ubuntu-latest
+    runs-on: ${{ matrix.os }}
     strategy:
       matrix:
-        java: [ '21' ]
+        java: ['21']
+        os:
+          - ubuntu-latest
+          - ubuntu-24.04-arm
+      fail-fast: false
     steps:
       - uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd # v6.0.2
         with:
